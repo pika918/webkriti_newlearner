@@ -1,33 +1,44 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.logo
+{
+    margin-top: 1%;
+    width: 10%;
 }
 .navbar{
     display: flex;
-    align-items: center;
-    padding: 20px;
-    
 }
 .nav{
-    flex: 1;
-    text-align: right;
-    
-    
-
+    display: flex;
+    margin-left: 10%;
 }
 
-a{
+.nav a{
+    width: 20%;
+    border: 2px solid black;
     text-decoration: none;
-    color: rgb(15, 14, 15);
-
+    color: rgb(5, 5, 5);
+    border-radius: 20%;
+    padding: 5%;
+    margin: 7%;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.nav li{
-    display: inline-block;
-    margin-right: 20px;
+.nav a:hover{
+    background-color: #eef5f1;
 }
+/*.product-list{
+    display: none;
+    position: absolute;
+    background-color: orange;
+    min-width: 10%;
+    box-shadow: 0px 8px 16px 0px gray;
+    z-index: 1;
+}*/
 .container{
-    max-width: 1300px;
+    max-width: 100%;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -61,13 +72,36 @@ p{
 /* explore button property*/
 .btn{
     display: inline-block;
-    background:rgb(23, 148, 138);
+    background:rgb(28, 110, 121);
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
-    border-radius: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    background-color: indianred;
 }
 .header{
 
-    background: radial-gradient(#fff,#74E6BE);
+    background: radial-gradient(#fff,#74e6be);
+}
+.categories{
+    margin: 2% 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 2%;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
